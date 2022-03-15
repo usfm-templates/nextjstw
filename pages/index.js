@@ -14,6 +14,8 @@ export default function Home() {
       <main className={styles.main}>
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
+
+          <p className='text-sm italic'>With <p className='text-violet-200 text-bold inline-block'>Tailwind CSS</p></p>
         </h1>
 
         <p className={styles.description}>
